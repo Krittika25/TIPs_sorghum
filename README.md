@@ -1,6 +1,9 @@
 # TIP (Transposable-element Insertion site Polymorphism) identification in sorghum
 This pipeline was adapted from the one presented by Xu Cai et al. in their paper 'Transposable element insertion: a hidden major source of domesticated phenotypic variation in *Brassica rapa*'. 
 Most of the scripts were used without major alterations but the ones that were modified are available here. 
+Their GitHub page can be accessed at https://github.com/caixu0518/ITIPs
+
+The files used and created by this pipeline can be found at /nobackup/cooper_research/krittikak/TIP_pipeline/smartie-sv
 
 ### Step 1: Identification of insertions and deletions in the 11 sorghum genotypes (NAM lines)
 This step involved running the smartie-sv pipeline.
@@ -24,4 +27,22 @@ With the annotation files,the reference genome was used to identify the flanking
 This was followed by using the BTx623 reference genome to identify the flanking+reference based TE insertions and flanking+non-reference based TE insertions
 
 ### Step3: Determining TIPs at the population level
-Using the output files in the last stage of Step 2, bwa mem was used to map the wild sorghum genotypes to the TE insertions. 
+Using the output files in the last stage of Step 2, bwa mem (with the same parameters as the authors had set) was used to map the wild sorghum genotypes to the TE insertions. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#### Files used in each step:
+The slurm scripts can be found in the SVprocessing folder
+1 run-smartie.pl (smartie-sv.slurm)
+2 merge_insertions_deletions.pl (mergeSVs.slurm)
+3 getFASTA.pl replaced blast_INS_DEL_seq_to_TE_lib.pl (maptoTElib.slurm)
+4 deletion_annotation.pl (TEsingenes_ref.slurm)
+5 insertion_annotation.pl (TEsingenes_nonref.slurm)
+6 get_referenceTEinsertions_and_flanking_Seqs.pl (getFlanking.slurm)
+7 get_nonReferenceTEinsertions_and_flanking_Seqs.pl (getFlanking.slurm)
+8 TE_insertions_genotype.pl (mapPopSeq_ref.slurm and mapPopSeq_nonred.slurm)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The final outputs for all the wild genotypes are in the folder genotype_TIPs.
+These outputs were merged using TIPGeneOverlaps.py script.
