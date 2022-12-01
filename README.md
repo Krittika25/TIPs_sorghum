@@ -33,14 +33,14 @@ Using the output files in the last stage of Step 2, bwa mem (with the same param
 
 #### Files used in each step:
 The slurm scripts can be found in the SVprocessing folder
-1 run-smartie.pl (smartie-sv.slurm)
-2 merge_insertions_deletions.pl (mergeSVs.slurm)
-3 getFASTA.pl replaced blast_INS_DEL_seq_to_TE_lib.pl (maptoTElib.slurm)
-4 deletion_annotation.pl (TEsingenes_ref.slurm)
-5 insertion_annotation.pl (TEsingenes_nonref.slurm)
-6 get_referenceTEinsertions_and_flanking_Seqs.pl (getFlanking.slurm)
-7 get_nonReferenceTEinsertions_and_flanking_Seqs.pl (getFlanking.slurm)
-8 TE_insertions_genotype.pl (mapPopSeq_ref.slurm and mapPopSeq_nonred.slurm)
+1. run-smartie.pl (smartie-sv.slurm)
+2. merge_insertions_deletions.pl (mergeSVs.slurm)
+3. getFASTA.pl replaced blast_INS_DEL_seq_to_TE_lib.pl (maptoTElib.slurm)
+4. deletion_annotation.pl (TEsingenes_ref.slurm)
+5. insertion_annotation.pl (TEsingenes_nonref.slurm)
+6. get_referenceTEinsertions_and_flanking_Seqs.pl (getFlanking.slurm)
+7. get_nonReferenceTEinsertions_and_flanking_Seqs.pl (getFlanking.slurm)
+8. TE_insertions_genotype.pl (mapPopSeq_ref.slurm and mapPopSeq_nonred.slurm)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
