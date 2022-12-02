@@ -40,7 +40,7 @@ The slurm scripts can be found in the SVprocessing folder
 5. insertion_annotation.pl (TEsingenes_nonref.slurm)
 6. get_referenceTEinsertions_and_flanking_Seqs.pl (getFlanking.slurm)
 7. get_nonReferenceTEinsertions_and_flanking_Seqs.pl (getFlanking.slurm)
-8. TE_insertions_genotype.pl (mapPopSeq_ref.slurm and mapPopSeq_nonred.slurm) - this script calls on other scripts
+8. TE_insertions_genotype.pl (mapPopSeq_ref.slurm and mapPopSeq_nonred.slurm) - this script calls on code_genotype.pl 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
