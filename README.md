@@ -1,6 +1,6 @@
 # TIP (Transposable-element Insertion site Polymorphism) identification in sorghum
 This pipeline was adapted from the one presented by Xu Cai et al. in their paper 'Transposable element insertion: a hidden major source of domesticated phenotypic variation in *Brassica rapa*'. 
-Most of the scripts were used without major alterations but the ones that were modified are available here. 
+Most of the scripts were used without major alterations but the ones that were modified are indicated as such. 
 Their GitHub page can be accessed at https://github.com/caixu0518/ITIPs
 
 The files used and created by this pipeline can be found at /nobackup/cooper_research/krittikak/TIP_pipeline/smartie-sv
@@ -40,7 +40,7 @@ The slurm scripts can be found in the SVprocessing folder
 5. insertion_annotation.pl (TEsingenes_nonref.slurm)
 6. get_referenceTEinsertions_and_flanking_Seqs.pl (getFlanking.slurm)
 7. get_nonReferenceTEinsertions_and_flanking_Seqs.pl (getFlanking.slurm)
-8. TE_insertions_genotype.pl (mapPopSeq_ref.slurm and mapPopSeq_nonred.slurm)
+8. TE_insertions_genotype.pl (mapPopSeq_ref.slurm and mapPopSeq_nonred.slurm) - this script calls on other scripts
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
