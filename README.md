@@ -27,8 +27,8 @@ With the annotation files,the reference genome was used to identify the flanking
 This was followed by using the BTx623 reference genome to identify the flanking+reference based TE insertions and flanking+non-reference based TE insertions
 
 ### Step3: Determining TIPs at the population level
-Using the output files in the last stage of Step 2, bwa mem (with the same parameters as the authors had set) was used to map the wild sorghum genotypes to the TE insertions. 
-
+Using the output files in the last stage of Step 2, bwa-mem (with the same parameters as the authors had set) was used to map the wild sorghum genotypes to the TE insertions. 
+bwa-mem provided in the referred GitHub page was used for alignment.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Files used in each step:
@@ -49,4 +49,5 @@ These outputs were merged using TIPGeneOverlaps_DEL.py script.
 
 **NOTE:** While interpreting the Genotype results keep in mind that 'CC' gneotype indicates homozygous to the reference and 'GG' is heterozygous to the reference. 
 For TEs called on deletion data, 'CC' genotype would indicate that the TE is also present in the query genome and 'GG' would indicate deletion of the TE in the query. 
+
 For TEs called on insertion data, 'CC' genotype would indicate TE is not present in the query or the reference genomes and 'GG' would indicate insertion of the TE in the query.
