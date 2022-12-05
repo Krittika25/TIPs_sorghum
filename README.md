@@ -17,6 +17,7 @@ Unlike in the paper being referred to, only a single reference genome was used t
 Local installation of Blasr and smartie-sv was required for running the program successfully on the UNC Charlotte HPC cluster.
 
 **Installing smartie-sv**
+
 Use the scripts in smartie-sv folder to locally install and run smartie-sv. This folder also contains a slurm script to get the required version of blasr.
 
 To install unzip the file and type:
