@@ -1,7 +1,10 @@
 # TIP (Transposable-element Insertion site Polymorphism) identification in sorghum
 This pipeline was adapted from the one presented by Xu Cai et al. in their paper 'Transposable element insertion: a hidden major source of domesticated phenotypic variation in *Brassica rapa*'. 
-Most of the scripts were used without major alterations but the ones that were modified are indicated as such. 
+Most of the scripts were used without major alterations but the ones that were modified are indicated as such with comments in the script. 
 Their GitHub page can be accessed at https://github.com/caixu0518/ITIPs
+
+Reference:
+Xu Cai, Runmao Lin, Jianli Liang, Graham J. King, Jian Wu, Xiaowu Wang. (2022). Transposable element insertion: a hidden major source of domesticated phenotypic variation in Brassica rapa. Plant Biotechnology Journal. https://doi.org/10.1111/pbi.13807
 
 The files used and created by this pipeline can be found at /nobackup/cooper_research/krittikak/TIP_pipeline/smartie-sv
 
