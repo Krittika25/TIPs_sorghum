@@ -21,7 +21,7 @@ Use the scripts in smartie-sv folder to locally install and run smartie-sv. This
 
 To install unzip the file and type:
 ```
-bash smartie-sv.sh
+bash smartie-sv-sgb.sh
 ```
 
 
