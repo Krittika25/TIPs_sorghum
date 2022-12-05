@@ -53,8 +53,8 @@ These outputs were merged using TIPGeneOverlaps_DEL.py script.
 **NOTE:** While interpreting the Genotype results keep in mind that 'CC' gneotype indicates homozygous to the reference and 'GG' is heterozygous to the reference. 
 
 For TEs called on deletion data, 'CC' genotype would indicate that the TE is also present in the query genome and 'GG' would indicate deletion of the TE in the query. 
-
-For TEs called on insertion data, 'CC' genotype would indicate TE is not present in the query or the reference genomes and 'GG' would indicate insertion of the TE in the query.
+**
+For TEs called on insertion data, 'CC' genotype would indicate TE is not present in the query or the reference genomes and 'GG' would indicate insertion of the TE in the query.**
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Counts of BTx623 genes with TE insertions:
