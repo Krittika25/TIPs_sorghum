@@ -16,6 +16,16 @@ Unlike in the paper being referred to, only a single reference genome was used t
 
 Local installation of Blasr and smartie-sv was required for running the program successfully on the UNC Charlotte HPC cluster.
 
+**Installing smartie-sv**
+Use the scripts in smartie-sv folder to locally install and run smartie-sv. This folder also contains a slurm script to get the required version of blasr.
+
+To install unzip the file and type:
+```
+bash smartie-sv.sh
+```
+
+
+
 ### Step 2: Construction of the TE insertion dataset
 The insertions and deletions were mapped on the TE library.
 To create the TE library, first EDTA was run on all the genomes followed by clustering by CD-HIT to create a non-redundant TE library.
@@ -38,7 +48,7 @@ bwa-mem provided in the referred GitHub page was used for alignment.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### Files used in each step:
-The slurm scripts can be found in the SVprocessing folder
+The slurm scripts can also be found in the SVprocessing folder on the cluster (within the folder path mentioned above)
 1. run-smartie.pl (smartie-sv.slurm)
 2. merge_insertions_deletions.pl (mergeSVs.slurm)
 3. getFASTA.pl replaced blast_INS_DEL_seq_to_TE_lib.pl (maptoTElib.slurm)
