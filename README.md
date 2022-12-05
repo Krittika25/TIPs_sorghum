@@ -55,3 +55,23 @@ These outputs were merged using TIPGeneOverlaps_DEL.py script.
 For TEs called on deletion data, 'CC' genotype would indicate that the TE is also present in the query genome and 'GG' would indicate deletion of the TE in the query. 
 
 For TEs called on insertion data, 'CC' genotype would indicate TE is not present in the query or the reference genomes and 'GG' would indicate insertion of the TE in the query.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Counts of BTx623 genes with TE insertions:
+
+| Genotype ID | Genes with TEs (ref based) | Genes with DEL TEs (ref based) | Genes with TEs (non-ref based) | Genes with INS TEs (non-ref based) |
+|-------------|----------------------------|--------------------------------|--------------------------------|------------------------------------|
+| Grif16309 | 443 | 1034 | 1417 | 406 |
+| pi302118 | 462 | 1192 | 1671 | 491 |
+| pi302267 | 507 | 782 | 1249 | 303 |
+| pi329250 | 536 | 892 | 1720 | 442 |
+| pi329251 | 447 | 869 | 1720 | 442 |
+| pi329252 | 540 | 868 | 1696 | 471 |
+| pi369484 | 514 | 843 | 1667 | 536 |
+| pi369487 | 423 | 829 | 1628 | 489 |
+| pi524718 | 556 | 928 | 1644 | 463 |
+| pi532564 | 521 | 965 | 1667 | 433 |
+| pi532565 | 508 | 865 | 1654 | 441 |
+| pi532566 | 504 | 835 | 1651 | 416 |
+| pi532568 | 483 | 827 | 1658 | 422 |
+| pi535995 | 548 | 915 | 1677 | 503 |
